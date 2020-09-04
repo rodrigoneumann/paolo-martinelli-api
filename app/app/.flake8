@@ -1,6 +1,14 @@
 [flake8]
 exclude =
-    migrations,
+    .venv,
+    .vscode,
+    .git,
     __pycache__,
-    manage.py,
-    settings.py
+    docs/source/conf.py,
+    old,
+    build,
+    dist
+    migrations
+    settings
+    manage.py
+    wsgi.py
